@@ -48,5 +48,11 @@ def vowel(text):
     newstr9 = newstr8.replace("A", "i")
     return newstr9
 
-text = input("Masukan Kata : ")
-print(vowel(text))
+def main():
+    text = input("Masukan Kata : ")
+    print(vowel(text))
+    user = str(input("Mau Lagi? : "))
+    if user == ("y"):
+        return main()
+
+main()
