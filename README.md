@@ -1,4 +1,4 @@
 # Ngenyekk
-kintil ki idi limi
+mocking other people using python
 
 ![Contoh](carbon.png)
